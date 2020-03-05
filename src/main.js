@@ -3,12 +3,16 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// bootstrap vue
 import {BootstrapVue, IconsPlugin} from 'bootstrap-vue';
-
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+// fuse searching
+import VueFuse from 'vue-fuse';
+Vue.use(VueFuse);
 
 Vue.config.productionTip = false;
 
