@@ -75,7 +75,7 @@
                 <b-row style="margin-top: 25px">
                     <b-col>
                         <b-form-group label="Notes">
-                            <b-textarea v-model="notes" :rows="12"/>
+                            <b-textarea v-model="notes" :rows="7"/>
                         </b-form-group>
                     </b-col>
                 </b-row>
